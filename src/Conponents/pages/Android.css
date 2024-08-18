@@ -1,0 +1,88 @@
+.android-development-page {
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .page-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.75rem;
+    color: #333;
+  }
+  
+  .Andsection {
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+  
+  .section-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .section-content {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #007bff;
+  }
+  
+  p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .page-title {
+      font-size: 1.5rem;
+    }
+  
+    h2 {
+      font-size: 1.25rem;
+    }
+  
+    p {
+      font-size: 0.9rem;
+    }
+  
+    .Andsection {
+      margin-bottom: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .page-title {
+      font-size: 1.25rem;
+    }
+  
+    h2 {
+      font-size: 1.1rem;
+    }
+  
+    p {
+      font-size: 0.85rem;
+    }
+  
+    .Andsection {
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+  }
+  

@@ -1,0 +1,84 @@
+.HeadCont{
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 10px;
+ 
+ 
+}
+
+.HeadInpt{
+  width: 40vw;
+}
+
+/*head section css*/
+.HeadImg{
+  width: 50vw;
+  height: 400px;
+    }
+
+@media only screen and (max-width:600px){
+
+
+  .HeadImg{
+width: 100vw;
+height:400px;
+
+
+  }
+
+  .HeadInpt{
+    width: 90vw;
+  }
+  
+
+
+  
+}
+
+.Herobtn{
+
+  width: 200px;
+height: 50px;
+border: none;
+background: linear-gradient(45deg, #3ac5c8, #0b509e);
+color:#fff;
+}
+
+
+.aboutushead{
+  color: #5E0914;
+  text-align: center;
+}
+
+
+
+.Gettouchcont{
+
+
+  width: 100vw;
+height: 100%                       ;
+border: none;
+background: linear-gradient(45deg,  #0b509e,#3ac5c8);
+color:#fff;
+padding: 20px 0px;
+
+
+  
+}
+.Gettouchsubcnt{
+  width: 80vw;
+  margin: 0 10vw ;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  border: 1px solid white;
+  background: none;
+  padding: 10px 10px;
+
+}

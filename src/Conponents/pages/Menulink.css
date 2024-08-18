@@ -1,0 +1,60 @@
+.Linkcontainer {
+    font-family: Arial, sans-serif;
+    margin: 50px auto;
+      width: 100%;
+    padding: 20px;
+  }
+  
+  .Linkheader {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .Linkservices {
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+  }
+  
+  .service-card {
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 500px;
+    text-align: center;
+  }
+  
+  .service-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  
+
+  @media only screen and (max-width: 600px) {
+  
+    .Linkservices {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .service-card {
+      height: auto;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      width: 100%;
+      text-align: center;
+    }
+  
+  }
